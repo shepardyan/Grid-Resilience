@@ -1,0 +1,9 @@
+networkx
+numpy
+pandas
+ray
+scipy
+setuptools
+tqdm
+pyAgrum
+torch
