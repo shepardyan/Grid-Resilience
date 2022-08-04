@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BIF VERSION="0.3">
+  <NETWORK>
+    <NAME>UNTITLED</NAME>
+    <VARIABLE TYPE="nature">
+      <NAME>0</NAME>
+      <OUTCOME>0</OUTCOME>
+      <OUTCOME>1</OUTCOME>
+      <PROPERTY />
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>1</NAME>
+      <OUTCOME>0</OUTCOME>
+      <OUTCOME>1</OUTCOME>
+      <PROPERTY />
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>2</NAME>
+      <OUTCOME>0</OUTCOME>
+      <OUTCOME>1</OUTCOME>
+      <PROPERTY />
+    </VARIABLE>
+    <DEFINITION>
+      <FOR>0</FOR>
+      <TABLE>0.0 1.0 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>1</FOR>
+      <GIVEN>0</GIVEN>
+      <TABLE>1.0 0.0 0.09999999999999998 0.9 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>2</FOR>
+      <GIVEN>1</GIVEN>
+      <TABLE>1.0 0.0 0.010000000000000009 0.99 </TABLE>
+    </DEFINITION>
+  </NETWORK>
+</BIF>

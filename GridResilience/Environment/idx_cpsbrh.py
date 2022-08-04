@@ -1,0 +1,15 @@
+# 算例的索引文件， 适用于广州算例格式
+BRH_I = 0
+FBUS = 1
+TBUS = 2
+BR_R = 3
+BR_X = 4
+BR_B = 5
+RATE_A = 6
+RATE_B = 7
+RATE_C = 8
+TAP = 9
+SHIFT = 10
+BR_STATUS = 11
+ANGMIN = 12
+ANGMAX = 13

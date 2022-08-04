@@ -1,0 +1,100 @@
+digraph G {
+rankdir = TB;
+compound = true;
+label = <<b><br/>Computation main.9</b>>;
+labelloc = t;
+// Disable the tooltip.  Interestingly, "" doesn't work!
+tooltip = " ";
+// DOT graphs accept a stylesheet as a URI.  So naturally, an inline
+// stylesheet is a data URI!
+stylesheet=<
+  data:text/css,
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+  svg text {
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+
+    %23node5:hover ~ %23edge1 text { fill: %231976d2; }
+  %23node5:hover ~ %23edge1 path { stroke: %231976d2; stroke-width: .2em; }
+  %23node5:hover ~ %23edge1 polygon { fill: %231976d2; stroke: %231976d2; stroke-width: .2em; }
+
+  %23node6:hover ~ %23edge1 text { fill: %23d32f2f; }
+  %23node6:hover ~ %23edge1 path { stroke: %23d32f2f; stroke-width: .2em; }
+  %23node6:hover ~ %23edge1 polygon { fill: %23d32f2f; stroke: %23d32f2f; stroke-width: .2em; }
+
+  %23node3:hover ~ %23edge2 text { fill: %231976d2; }
+  %23node3:hover ~ %23edge2 path { stroke: %231976d2; stroke-width: .2em; }
+  %23node3:hover ~ %23edge2 polygon { fill: %231976d2; stroke: %231976d2; stroke-width: .2em; }
+
+  %23node5:hover ~ %23edge2 text { fill: %23d32f2f; }
+  %23node5:hover ~ %23edge2 path { stroke: %23d32f2f; stroke-width: .2em; }
+  %23node5:hover ~ %23edge2 polygon { fill: %23d32f2f; stroke: %23d32f2f; stroke-width: .2em; }
+
+  %23node4:hover ~ %23edge3 text { fill: %231976d2; }
+  %23node4:hover ~ %23edge3 path { stroke: %231976d2; stroke-width: .2em; }
+  %23node4:hover ~ %23edge3 polygon { fill: %231976d2; stroke: %231976d2; stroke-width: .2em; }
+
+  %23node5:hover ~ %23edge3 text { fill: %23d32f2f; }
+  %23node5:hover ~ %23edge3 path { stroke: %23d32f2f; stroke-width: .2em; }
+  %23node5:hover ~ %23edge3 polygon { fill: %23d32f2f; stroke: %23d32f2f; stroke-width: .2em; }
+
+  %23node1:hover ~ %23edge4 text { fill: %231976d2; }
+  %23node1:hover ~ %23edge4 path { stroke: %231976d2; stroke-width: .2em; }
+  %23node1:hover ~ %23edge4 polygon { fill: %231976d2; stroke: %231976d2; stroke-width: .2em; }
+
+  %23node6:hover ~ %23edge4 text { fill: %23d32f2f; }
+  %23node6:hover ~ %23edge4 path { stroke: %23d32f2f; stroke-width: .2em; }
+  %23node6:hover ~ %23edge4 polygon { fill: %23d32f2f; stroke: %23d32f2f; stroke-width: .2em; }
+
+  %23node2:hover ~ %23edge5 text { fill: %231976d2; }
+  %23node2:hover ~ %23edge5 path { stroke: %231976d2; stroke-width: .2em; }
+  %23node2:hover ~ %23edge5 polygon { fill: %231976d2; stroke: %231976d2; stroke-width: .2em; }
+
+  %23node6:hover ~ %23edge5 text { fill: %23d32f2f; }
+  %23node6:hover ~ %23edge5 path { stroke: %23d32f2f; stroke-width: .2em; }
+  %23node6:hover ~ %23edge5 polygon { fill: %23d32f2f; stroke: %23d32f2f; stroke-width: .2em; }
+
+  %23node7:hover ~ %23edge7 text { fill: %231976d2; }
+  %23node7:hover ~ %23edge7 path { stroke: %231976d2; stroke-width: .2em; }
+  %23node7:hover ~ %23edge7 polygon { fill: %231976d2; stroke: %231976d2; stroke-width: .2em; }
+
+  %23node8:hover ~ %23edge7 text { fill: %23d32f2f; }
+  %23node8:hover ~ %23edge7 path { stroke: %23d32f2f; stroke-width: .2em; }
+  %23node8:hover ~ %23edge7 polygon { fill: %23d32f2f; stroke: %23d32f2f; stroke-width: .2em; }
+
+  %23node6:hover ~ %23edge6 text { fill: %231976d2; }
+  %23node6:hover ~ %23edge6 path { stroke: %231976d2; stroke-width: .2em; }
+  %23node6:hover ~ %23edge6 polygon { fill: %231976d2; stroke: %231976d2; stroke-width: .2em; }
+
+  %23node7:hover ~ %23edge6 text { fill: %23d32f2f; }
+  %23node7:hover ~ %23edge6 path { stroke: %23d32f2f; stroke-width: .2em; }
+  %23node7:hover ~ %23edge6 polygon { fill: %23d32f2f; stroke: %23d32f2f; stroke-width: .2em; }
+
+>
+
+2527386913136 [label=<<b>Parameter 0</b><br/>f32[3]>, shape=rect, tooltip="", style="filled", fontcolor="black", color="#cbae82", fillcolor="#ffe0b2"];
+2527386924992 [label=<<b>Parameter 1</b><br/>f32[3]>, shape=rect, tooltip="", style="filled", fontcolor="black", color="#cbae82", fillcolor="#ffe0b2"];
+subgraph cluster_2527381960352 {
+style=rounded; color=black;
+label = <Subcomputation for <b>call.7</b><br/>risk.3>;
+labelloc = t;
+tooltip = " ";
+2527386903104 [label=<<b>Parameter 0</b><br/>f32[3]>, shape=rect, tooltip="", style="filled", fontcolor="black", color="#cbae82", fillcolor="#ffe0b2"];
+2527386914960 [label=<<b>Parameter 1</b><br/>f32[3]>, shape=rect, tooltip="", style="filled", fontcolor="black", color="#cbae82", fillcolor="#ffe0b2"];
+2527386293360 [label=<<b>dot.6</b><br/>lhs_contracting_dims={0}, rhs_contracting_dims={0}<br/>f32[]>, shape=rect, tooltip="xla_computation(risk)/jit(main)/jit(risk)/dot_general[dimension_numbers=(((0,), (0,)), ((), ())) precision=None preferred_element_type=None]
+source: D:/DocumentFiles/FINALTHINGS/GridResilience/CGSolver/__init__.py:35", style="filled", fontcolor="white", color="#003c8f", fillcolor="#1565c0"];
+
+}  // cluster_2527381960352
+
+2527386518368 [label=<<b>call.7</b><br/>f32[]>, shape=rect, tooltip="", style="filled", fontcolor="white", color="#005005", fillcolor="#2e7d32"];
+2527386552928 [label=<<b>tuple.8</b><br/>(f32[])>, shape=rect, tooltip="", style="filled", fontcolor="black", color="black", fillcolor="white"];
+cluster_2527381961024 [label=<ROOT>, shape=circle, tooltip=" ", style="filled", fontcolor="black", color="#8c7b75", fillcolor="#bcaaa4"];
+2527386293360 -> 2527386518368 [ltail="cluster_2527381960352", style="dashed" tooltip="risk.3 -> call.7"];
+2527386903104 -> 2527386293360 [arrowhead=empty tooltip="Arg_0.4 -> dot.6"  headlabel="0", labeldistance=2];
+2527386914960 -> 2527386293360 [arrowhead=empty tooltip="Arg_1.5 -> dot.6"  headlabel="1", labeldistance=2];
+2527386913136 -> 2527386518368 [arrowhead=empty tooltip="Arg_0.1 -> call.7"  headlabel="0", labeldistance=2];
+2527386924992 -> 2527386518368 [arrowhead=empty tooltip="Arg_1.2 -> call.7"  headlabel="1", labeldistance=2];
+2527386518368 -> 2527386552928 [arrowhead=empty tooltip="call.7 -> tuple.8" ];
+2527386552928 -> cluster_2527381961024 [tooltip=" "];
+}
